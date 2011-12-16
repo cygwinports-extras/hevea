@@ -1,0 +1,12 @@
+inherit ocaml
+
+DESCRIPTION="LaTeX to HTML translator"
+HOMEPAGE="http://hevea.inria.fr/"
+SRC_URI="http://hevea.inria.fr/distri/${P}.tar.gz"
+
+src_compile() {
+	lndirs
+	cd ${B}
+	rm -f config.sh
+	cygmake PREFIX=/usr DESTDIR=${D}
+}
