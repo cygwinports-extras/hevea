@@ -1,5 +1,0 @@
-category: Devel OCaml
-requires:
-sdesc: "LaTeX to HTML translator"
-ldesc: "HeVeA is a quite complete and fast LaTeX to HTML translator. 
-HeVeA is written in Objective Caml."
